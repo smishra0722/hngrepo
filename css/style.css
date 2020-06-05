@@ -159,7 +159,7 @@
 /* ----------MAIN SECTION---------*/ 
 .main-section
 {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -322,7 +322,7 @@
 /* Dashboard */
 .dashboard__container
 {
-    height: 87%;
+    height: 80%;
     margin-top: 1.5%;
     width: 100%;
     position: relative;
@@ -336,7 +336,7 @@
 }
 .dashboard__card::-webkit-scrollbar
 {
-    width: .3rem;
+    width: .4rem;
 }
 .dashboard__card::-webkit-scrollbar-track
 {
@@ -345,14 +345,13 @@
 .dashboard__card::-webkit-scrollbar-thumb
 {
     background-color: var(--clr-primary);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .card__title
 {
     display: grid;
     grid-template-columns: 5% 20% 60% 15%;
     color: var(--clr-grey);
-    border-bottom: 1px solid var(--clr-border);
     padding: 1rem;
     margin-top: 7px;
 }
@@ -360,7 +359,7 @@
 {
     display: grid;
     grid-template-columns: 5% 20% 60% 15%;
-    border-bottom: 1px solid var(--clr-border);
+    border-top: 1px solid var(--clr-border);
     align-items: center;
     padding: 1rem;
 }
